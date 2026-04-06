@@ -19,7 +19,7 @@ export function HomePage() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/tico-tico"
+              href="https://github.com/tico-tico-16"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-lg border border-border bg-secondary px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
