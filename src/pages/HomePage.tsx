@@ -8,13 +8,17 @@ export function HomePage() {
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl">
               tico-tico
             </h1>
-            <p className="mt-2 text-lg text-primary">Software Developer</p>
+            <p className="mt-2 text-lg text-primary">
+              Computer Science Graduate Student
+            </p>
           </div>
+          {/*
           <p className="max-w-lg text-pretty leading-relaxed text-muted-foreground">
             Web開発を中心に活動しているソフトウェアエンジニアです。
             フロントエンドからバックエンドまで幅広く対応し、
             使いやすく美しいプロダクトを作ることを目指しています。
           </p>
+          */}
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
