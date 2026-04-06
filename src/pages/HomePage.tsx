@@ -35,11 +35,11 @@ export function HomePage() {
 
         {/* Avatar */}
         <div className="relative shrink-0">
-          <div className="flex size-32 items-center justify-center overflow-hidden rounded-full border-2 border-border bg-secondary md:size-40">
-            <span className="text-5xl font-bold text-primary md:text-6xl">
-              T
-            </span>
-          </div>
+          <img
+            src="/avatar.webp"
+            alt="Tico Tico avatar"
+            className="size-32 rounded-full border-2 border-border object-cover md:size-40"
+          />
           <div className="absolute -bottom-1 -right-1 size-6 rounded-full border-2 border-background bg-primary md:size-8" />
         </div>
       </section>
