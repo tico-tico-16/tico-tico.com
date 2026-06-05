@@ -8,9 +8,11 @@ export function HomePage() {
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl">
               tico-tico
             </h1>
+            {/*
             <p className="mt-2 text-lg text-primary">
               Computer Science Graduate Student
             </p>
+            */}
           </div>
           {/*
           <p className="max-w-lg text-pretty leading-relaxed text-muted-foreground">
