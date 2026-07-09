@@ -45,6 +45,31 @@ export function HomePage() {
           <div className="absolute -bottom-1 -right-1 size-6 rounded-full border-2 border-background bg-primary md:size-8" />
         </div>
       </section>
+
+      {/* P2P Metronome Link */}
+      <section className="w-full max-w-lg">
+        <a
+          href="https://metronome.tico-tico.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col gap-1 rounded-2xl border border-border bg-secondary px-6 py-4 transition-colors hover:border-primary"
+        >
+          <span className="text-lg font-semibold text-foreground">
+            P2Pメトロノーム
+          </span>
+          <span className="text-sm text-muted-foreground">
+            https://metronome.tico-tico.com
+          </span>
+        </a>
+        <a
+          href="https://github.com/tico-tico-16/WebRTC-Metronome"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-primary"
+        >
+          GitHub: https://github.com/tico-tico-16/WebRTC-Metronome
+        </a>
+      </section>
     </div>
   );
 }
